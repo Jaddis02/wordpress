@@ -1,0 +1,10 @@
+a.button.button-primary.get{
+	background: #022d61 !important;
+}
+thead.table-book,a.button.button-primary.solo {
+    background: #022d61 !important;
+		color: #fff !important;
+}
+a.button.button-primary.get:hover{
+	color: #fff !important;
+}

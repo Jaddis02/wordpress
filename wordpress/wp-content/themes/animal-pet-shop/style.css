@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/*
+Theme Name: Animal Pet Shop
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-pet-shop-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Animal Pet Shop is a clean and sophisticated theme for creating a pet salon, animal care center, pet shop, dog walkers, pultry and animal husbandary farms, pet grooming, and pet sitting services, pet and animal shelter homes, puppy daycare centers, etc. With an elegant design having interesting imagery regarding pet care, this free theme is created as per the latest WordPress standards and brings you the latest codes that are clean and secure. This theme comes along with a highly optimized design that will make a lightweight website and make the pages load quickly delivering faster page load time to give your users a great user experience. If you want to add more to the existing design, there are a lot of personalization options available. In order to make your website ready for an international audience, this theme brings you WPML and RTL compatibility making your website’s content translatable into various languages. The bootstrap framework is used as a base for creating this elegant theme. For bringing you more organic traffic, its creators have made it SEO-friendly. Call to Action Button (CTA) will also take care of the conversion rates. You will find this theme interactive for the audience as well as easy to use fr novices and beginners.
+Version: 0.3.4
+Tested up to: 6.4
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: pet-care-zone
+Text Domain: animal-pet-shop
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, footer-widgets, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, portfolio
+
+Animal Pet Shop WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2022.
+Animal Pet Shop WordPress Theme is released under the terms of GNU GPL
+*/
+
+body,h1, h2, h3, h4, h5, h6,.navbar-brand h1.site-title, p.site-title{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.top-info,.comment-respond input#submit,#colophon,.main-navigation .sub-menu,.sidebar h5,.sidebar input[type="submit"], .sidebar button[type="submit"],.sidebar .tagcloud a:hover,.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover,.woocommerce .woocommerce-ordering select,.pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce-account .woocommerce-MyAccount-navigation ul li,.toggle-nav i,span.onsale,.addtocart a:hover,.social-link i.fab.fa-linkedin-in,.woocommerce a.added_to_cart{
+    background: #022d61;
+}
+h1, h2, h3, h4, h5, h6,.article-box a,.sidebar ul li a:hover,p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #022d61;
+}
+.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover,.addtocart a:hover{
+    border-color: #022d61;
+}
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #022d61 !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li:hover, .topbtn,.main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus,.pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,#button:hover, #button:active,.woocommerce a.added_to_cart:hover{
+    background: #a3d256;
+}
+a, .navbar-brand a:hover, .product-content h3 a:hover, .slider-inner-box h1 a:hover{
+    color: #a3d256;
+}
+.article-box a:hover{
+  color: #a3d256;
+}
+.navigation_header .nav{
+    justify-content: flex-end;
+}
+.main-navigation .menu > li > a:hover, #site-navigation .menu ul li a:hover{
+    color: #a3d256;
+}
+.main-navigation ul.sub-menu > li > a:hover, .main-navigation ul.sub-menu > li > a:focus {
+    background: #a3d256;
+    color: #fff !important;
+}
+.social-link i.fab.fa-facebook-f,.social-link i.fab.fa-twitter,.social-link i.fab.fa-instagram,.social-link i.fab.fa-linkedin-in,.social-link i.fab.fa-pinterest-p{
+    background: #42b0e2;
+}
+.btn-primary,#button ,.social-link i.fab.fa-facebook-f:hover, .social-link i.fab.fa-twitter:hover, .social-link i.fab.fa-instagram:hover, .social-link i.fab.fa-linkedin-in:hover, .social-link i.fab.fa-pinterest-p:hover{
+    background: #a3d256;
+}
+.social-link i:hover {
+    background: #022d61 !important;
+}
+
+#colophon a:hover, #colophon a:focus,.top-info p:hover a{
+    color: #a3d256;
+}
+.top-info p:hover i{
+    color: #a3d256;
+}
+.topbtn:hover{
+  background-color: #ffffff;
+}
+.topbtn:hover a{
+    color: #022d61;
+}
+.social-link i.fas.fa-shopping-cart:hover{
+    color: #fff;
+}
+
+/* Slider */
+
+.slider-box img {
+    position: relative;
+    -webkit-mask-image: none;
+    mask-image: none;
+    -webkit-mask-position: unset;
+    mask-position: unset;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: unset;
+    mask-size: unset;
+    -webkit-mask-size: unset;
+    height: auto;
+}
+.slider-box .slideimg:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+    left: 0;
+    height: 100%;
+    top: 0;
+    background: url(assets/img/slider-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slider-box .slideimg {
+    position: relative;
+}
+.slider-inner-box{
+    z-index: 9999;
+    right: 50%;
+}
+.slider-inner-box h1 a{
+    font-size: 55px;
+}
+.slider-btn a {
+    background: #a3d256;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.slider-btn a:hover{
+    background: #fff;
+    color: #022d61;
+}
+
+/* Services */
+
+.services-sec h3 {
+    font-size: 40px;
+    color: #181818;
+}
+.box-category {
+    background: #f2f2f4;
+    border-radius: 10px;
+    padding: 18px;
+}
+.box-category h4 a{
+    color: #181818;
+}
+.box-category p{
+    color: #67696f;
+}
+.box-category:hover {
+    background: #0e2c61;
+}
+.box-category:hover h4 a,.box-category:hover p,.box-category:hover i {
+    color: #fff;
+}
+.box-category i {
+    font-size: 65px;
+    margin-bottom: 40px;
+    color: #0e2c61;
+}
+.admin-bar .main_header.stick_header{
+  background: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .slider-inner-box h1 a {
+        display: none;
+    }
+    .slider-inner-box {
+        right: 35%;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .sidenav{
+        background: #022d61;
+    }
+    .slider-inner-box {
+        right: 40%;
+        left: 5%;
+    }
+    .sidenav .closebtn{
+        background: #a3d256;
+    }
+    .main-navigation ul.sub-menu > li > a:hover, .main-navigation ul.sub-menu > li > a:focus, .main-navigation .menu > li > a:hover {
+        background: transparent;
+        color: #a3d256 !important;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .slider-inner-box {
+        right: 45%;
+    }
+}
